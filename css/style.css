@@ -1,0 +1,402 @@
+body{
+	font-family: "Crimson Text", "Times New Roman", serif;
+	width: 100%;
+}
+
+header{
+	height: 28vw;
+	background-image: url(../img/fundo2.jpg);
+}
+
+.banner{
+	display: inline-block;
+	height: 100%;
+	width: 80%;
+	margin-left: 10%;
+	border: black solid 4px;
+	
+}
+
+.caixa{
+	position: relative;
+	height: 100%;
+	width: 100%;
+    margin: 0 auto;
+	background-image: url(../img/fundo3.png);
+	background-size: 70%;	
+}
+
+.titulo{
+	position: absolute;
+	top: 1.2vw;
+	right: 11vw;
+	font-family: 'ZCOOL XiaoWei', serif;
+	color: white;
+	font-size: 4vw;
+}
+
+.caixa-foto{
+	position: absolute;
+	top: 23%;
+	right: 16%;
+	transition: 400ms;
+	width: 16vw;
+	height: auto;
+    cursor: pointer;
+}
+
+.caixa-foto img{
+	width: 100%;
+	box-shadow: 0.8vw 0.8vw 0.5vw #000000;
+}
+
+.caixa-foto:hover{
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
+.caixa-nav{
+	position: absolute;
+	bottom: 1.3vw;
+	right: 11vw;
+	display: inline;
+    
+}
+
+.caixa-nav li{
+	display: inline;
+	margin: 0 0 0 1vw;
+}
+
+.caixa-nav a{
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 1.75vw;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	cursor: pointer;
+}
+
+.caixa-nav a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.caixa-nav ul{
+	list-style: none;
+}
+
+.div-rodape{
+	background-image: url(../img/fundo2.jpg);
+	height: 17vw;
+}
+
+.rodape{
+	height: 100%;
+	color: white;
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #443ac9;
+	text-align: center;
+	padding: 1% 0 0 0;
+}
+
+.redes-sociais ul{
+	margin: auto;
+	width: auto;
+}
+
+.redes-sociais li{
+	display: inline;
+}
+
+.redes-sociais li img{
+	width: 6vw;
+}
+
+.mensagem-final{
+	position: relative;
+	margin: 0.3vw auto;
+	font-size: 5vw;
+	font-family: 'Modak', cursive;
+}
+
+.copyright{
+	text-align: center;
+	font-size: 1.5vw;
+	width: auto;
+	margin: 2% 0 auto;
+}
+
+main{
+	background-image: url(../img/fundo2.jpg);
+}
+
+.principal{
+	height: auto;
+	width: 80%;
+	margin: 0 auto;
+	background-image: url(../img/fundojpg.jpg);
+	background-size: 100% 100%;
+	padding-bottom: 3vw;
+}
+
+/*CSS pg home*/
+.principal-titulo::after{
+	content: "☻";
+}
+
+.principal h2{
+	padding: 5vw 1vw 0 0;
+	font-family: 'Lobster', cursive;
+	font-size: 3vw;
+	text-align: center;
+	font-weight: bold;
+}
+
+.principal p{
+	text-align: justify;
+	font-size: 1vw;
+	padding: 0.5vw 10vw;
+	font-weight: bold;
+	font-family: 'Barlow', sans-serif;
+}
+
+.trabalhador ul{
+	font-family: 'Barlow', sans-serif;
+	padding-left: 15%;
+	padding-right: 15%;
+	line-height: 1.2em;
+	width: auto;
+}
+
+.trabalhador li{
+	text-align: justify;
+	padding: 0 5%;
+	font-size: 1.2vw;
+}
+
+.trabalhador li::before{
+	content: "*";
+}
+
+.mapa, .video{
+	height: auto;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.video p::before{
+	content: "😎  ";
+}
+
+.mapa p::before{
+	content: "😈 ";
+}
+
+.principal iframe{
+	height: 25vw;
+	width: 50vw;
+	box-shadow: 0.8vw 0.8vw 0.5vw #000000;
+}
+
+
+/*CSS pg produtos*/
+.produtos{
+	width: 90%;
+	margin: 1vw auto;
+	text-align: center;
+	border: #000000 solid 0.2vw;
+	border-radius: 1vw;
+	padding-bottom: 1vw;
+}
+
+.principal h3{
+	padding: 1vw;
+	font-family: 'Lobster', cursive;
+	font-size: 1.8vw;
+	text-align: center;
+}
+
+.produtos p{
+	text-align: center;
+}
+
+.palestrantes{
+	height: 100%;
+}
+
+.palestrantes-foto{
+	display: inline-block;
+	margin: 1vw 1vw;
+	padding: 0 1vw;
+	text-align: center;
+	width: 18vw;
+	height: 18vw;
+	border: black solid 0.2vw;
+	border-radius: 1vw;
+}
+
+.palestrantes-foto img{
+	box-shadow: 0.8vw 0.8vw 0.5vw #000000;
+	transition: 400ms;
+	width: 75%;
+	cursor: pointer;
+}
+
+.palestrantes-foto img:hover{
+	transform: rotate(720deg);
+}
+
+.palestrantes-foto p{
+	width: 100%;
+	height: auto;
+	text-align: justify;
+	text-align: center;
+	line-height: 1.5;
+	padding: 0;
+	cursor: pointer;
+}
+
+.palestrantes-foto p:hover{
+	transform: scale(1.3);
+}
+
+.produtos-fotos{
+	box-shadow: 0.8vw 0.8vw 0.5vw #000000;
+	transition: 500ms;
+	width: 50vw;
+	height: 25vw;
+	cursor: pointer;
+}
+
+.produtos-fotos:hover{
+	opacity: 0.5;
+	transform: scale(1.05);
+}
+
+
+
+/*css pagina contato*/
+.mainContato{
+    width: 60vw;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#formContato{
+	margin: auto;
+	text-align: center;
+}
+
+#formContato p{
+	text-align: center;
+	margin-top: 2vw;
+}
+
+#formContato label{
+	font-size: 1.5vw;
+
+}
+
+.contato-entrada{
+	width: 35vw;
+	height: 3.5vw;
+	display: block;
+	margin: 1vw auto;
+	text-align: center;
+	font-size: 1.5vw;
+}
+
+.contato-assunto{
+	width: 35vw;
+	margin: 1vw auto;
+	display: block;
+	text-align: center;
+	font-size: 2vw;
+}
+
+.input-padrao{
+    display: block;
+    margin: 1vw auto;
+    padding: 1vw 3vw;
+	width: 25vw;
+}
+
+
+.checkbox{
+	margin: auto;
+	font-size: 3vw;
+}
+
+.option{
+	font-size: 2vw;
+}
+
+.checkbox:hover, .option:hover, .radio:hover{
+	transform: scale(1.05);
+}
+
+.contatos-selecionaveis{
+	width: 70%;
+	margin: auto;
+	text-align: justify;
+	font-family: 'Barlow', sans-serif;
+}
+
+.titulo-selecao{
+	font-family: 'Lobster', cursive;
+	font-size: 2.1vw;
+	padding: 1vw 0.5vw 0 0;
+}
+
+.contatos-selecionaveis label{
+    font-size: 3vw;
+    margin-bottom: 1vw;
+	display: block;
+	font-family: 'Barlow', sans-serif;
+}
+
+.botoes{
+	width: 40%;
+	margin: 2vw auto;
+    padding: 1.7vw 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5vw;
+	font-size: 1.8vw;
+	font-family: 'Barlow', sans-serif;
+    transition: 1s;
+	cursor: pointer;
+	display: block;
+}
+
+.botoes:hover{
+    background-color: red;
+    transform: scale(1.2);
+
+}
+
+.tabela{
+	margin: 4vw auto;
+	padding: 2vw;
+	font-size: 2vw;
+}
+
+thead{
+    background: #501c1c;
+    color: white;
+    font-weight: bold;
+}
+
+.tLinha{
+    border: 0.3vw solid #000000;
+    padding: 1vw 3vw;
+}
+
+
